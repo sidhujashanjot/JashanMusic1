@@ -58,10 +58,10 @@ const DonatePage = () => {
         >
           <Avatar
             className={classes.avatar}
-            src="https://avatars2.githubusercontent.com/u/23727670?s=300"
+            src="https://raw.githubusercontent.com/sidhujashanjot/JashanMusic1/master/src/images/play.png"
           />
-          <Typography variant="h5">Shivam</Typography>
-          <Typography>Creator of Ylight Music</Typography>
+          <Typography variant="h5">Desi World Radio</Typography>
+          <Typography>Download for Android</Typography>
         </Grid>
 
         <Grid
@@ -76,30 +76,30 @@ const DonatePage = () => {
         >
           <Avatar
             className={classes.avatar}
-            src="https://avatars2.githubusercontent.com/u/21976188?s=300"
+            src="https://raw.githubusercontent.com/sidhujashanjot/JashanMusic1/master/src/images/app.png"
           />
-          <Typography variant="h5">Will Adams</Typography>
-          <Typography>Helped in writing code</Typography>
+          <Typography variant="h5">Desi World Radio</Typography>
+          <Typography>Download for Apple</Typography>
         </Grid>
         <Divider className={classes.divider} />
-        <Typography variant="h5">Desi World Radio</Typography>
+        <Typography variant="h5">Features</Typography>
 
         <Grid container className={classes.miniContainer}>
           <Grid container alignItems="center">
-            <Avatar>R</Avatar>
-            <Typography variant="h6">Razvan</Typography>
+            <Avatar>M</Avatar>
+            <Typography variant="h6">24x7 Punjabi Music</Typography>
           </Grid>
           <Grid container alignItems="center">
             <Avatar>S</Avatar>
-            <Typography variant="h6">Shantanu</Typography>
+            <Typography variant="h6">High Bitrate Sound</Typography>
           </Grid>
           <Grid container alignItems="center">
-            <Avatar>P</Avatar>
-            <Typography variant="h6">Piyush</Typography>
+            <Avatar>R</Avatar>
+            <Typography variant="h6">Request Songs</Typography>
           </Grid>
           <Grid container alignItems="center">
-            <Avatar>Z</Avatar>
-            <Typography variant="h6">Zaid</Typography>
+            <Avatar>T</Avatar>
+            <Typography variant="h6">Talkshows</Typography>
           </Grid>
         </Grid>
       </Grid>
