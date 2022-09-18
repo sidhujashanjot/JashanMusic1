@@ -7,8 +7,8 @@ import youtubeSearch from '../../apis/youtubeSearch';
 
 // make a permanent playlist object with few songs catergory
 const playlistsIds = {
-  LatestSongs: 'PLFgquLnL59akA2PflFpeQG9L01VFg90wS',
-  RomanticSongs: 'PL64G6j8ePNureM8YCKy5nRFyzYf8I2noy',
+  LatestSongs: 'PL6_AX-gRSOpvDCrSR3EaPdEgUbtmA6bkO',
+  RomanticSongs: 'PL-oM5qTjmK2vxdTsj2Xghu5fjxhtuMaxo',
   EdmSongs: 'PLw-VjHDlEOgs658kAHR_LAaILBXb-s6Q5',
   TopBolloywood: 'PLcRN7uK9CFpPkvCc-08tWOQo6PAg4u0lA',
   TopPop: 'PLDcnymzs18LU4Kexrs91TVdfnplU3I5zs',
@@ -113,9 +113,9 @@ const HomePage = () => {
       <br />
       <SongCard songs={songObj.trending} categotyTitle={'Trending Now'} />
 
-      <SongCard songs={songObj.latestSongs} categotyTitle={'Latest Music'} />
+      <SongCard songs={songObj.latestSongs} categotyTitle={'Latest Punjabi'} />
 
-      <SongCard songs={songObj.romanticSongs} categotyTitle={'Romantic Mood'} />
+      <SongCard songs={songObj.romanticSongs} categotyTitle={'Super Hit'} />
 
       <SongCard songs={songObj.topBolloywood} categotyTitle={'Top Bollywood'} />
     </>
