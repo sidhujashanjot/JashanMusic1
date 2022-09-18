@@ -282,7 +282,7 @@ const MainPlayer = ({ location, history }) => {
     if (themeSelectValue === 'Dark') {
       playerStyle.background = '#333';
     } else {
-      playerStyle.background = '#e91e63';
+      playerStyle.background = '#009688';
     }
     // playerStyle.bottom = "48px";
     // calculate the top height and we are subtracting 148px becz
