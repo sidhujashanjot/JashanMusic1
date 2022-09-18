@@ -8,20 +8,20 @@ const DonatePage = () => {
     <main style={{ margin: "10px" }}>
       <br />
       <Typography variant="h5" align="center">
-        Support Me{" "}
+        Desi World Radio{" "}
         <span role="img" aria-label="hands joining">
-          🙏
+         
         </span>
       </Typography>
       <br />
       <Typography variant="subtitle1" align="center">
-        This app is free and open source for everyone and It doesn't show any
-        ads because I wanted to keep it like that, But there are servers running
-        and many other things which comes to a cost and I need to pay for those.
-        It would be really helpful if you will contribute and help me keep doing
-        what I do. Thanks
+        Desi World Radio is one of the finest Desi Radio Station in America, its non-profit radio station only setup by desi’s for our desi community across the world.
+Desi World Radio truly believe in the idea of bringing the Indian Desi community together and giving a platform for desi’s to showcase their talent and culture through Air.
+Desi World Radio is a listener-supported, volunteer-powered, nonprofit radio station only dedicated to providing excellent programs to our desi community around the world.
+
+
       </Typography>
-      <a target="self" href="https://www.patreon.com/bePatron?u=7063971">
+      <a target="self" href="https://www.desiworldradio.com/">
         <div className="donationBtn patreonBtn">
           <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg">
             <g>
@@ -42,10 +42,10 @@ const DonatePage = () => {
               />
             </g>
           </svg>
-          <Typography variant="body2">Become a patreon</Typography>
+          <Typography variant="body2">Visit Website</Typography>
         </div>
       </a>
-      <a target="self" href="https://paypal.me/creativeshi">
+      <a target="self" href="https://play.google.com/store/apps/details?id=com.DesiWorldRadio&hl=en_IN&gl=US">
         <div className="paypalBtn">
           <img
             alt="paypal logo"
@@ -53,7 +53,7 @@ const DonatePage = () => {
           />
         </div>
       </a>
-      <a target="self" href="https://p-y.tm/5Og-kb3">
+      <a target="self" href="https://apps.apple.com/in/app/desi-world-radio/id1237767157">
         <div className="paypalBtn">
           <img src={paytmLogo} alt="paytm logo" />
         </div>
