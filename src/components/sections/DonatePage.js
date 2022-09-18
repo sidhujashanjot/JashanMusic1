@@ -48,7 +48,7 @@ const DonatePage = () => {
       <Grid container justify="center">
         <Grid
           component={Link}
-          href="https://github.com/shivamjoker"
+          href="https://play.google.com/store/apps/details?id=com.DesiWorldRadio&hl=en_IN&gl=US"
           target="blank"
           container
           direction="column"
@@ -70,7 +70,7 @@ const DonatePage = () => {
           alignItems="center"
           className={classes.avatatContainer}
           component={Link}
-          href="https://github.com/bushblade"
+          href="https://apps.apple.com/in/app/desi-world-radio/id1237767157"
           target="blank"
           color="inherit"
         >
