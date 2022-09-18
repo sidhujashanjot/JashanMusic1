@@ -8,7 +8,7 @@ import {
   Link
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { pink } from "@material-ui/core/colors";
+import { teal } from "@material-ui/core/colors";
 
 const useStyles = makeStyles({
   avatar: {
@@ -33,7 +33,7 @@ const useStyles = makeStyles({
       // height: 50,
       marginRight: 20,
       marginLeft: 10,
-      background: pink[500],
+      background: teal[500],
       color: "#fff"
     }
   }
