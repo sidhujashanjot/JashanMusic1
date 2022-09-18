@@ -44,7 +44,7 @@ const LoginPage = ({ continueToHome }) => {
         align="center"
         style={{ padding: "10px" }}
       >
-        Listen to unlimited songs without any ads for free only on Ylight Music
+        Listen to unlimited songs without any ads for free only on Jashan Music
       </Typography>
       <img
         style={{
