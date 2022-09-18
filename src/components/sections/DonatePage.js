@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import "./DonatePageStyle.css";
-import paytmLogo from "../../images/Paytm.svg";
+import paytmLogo from "../../images/app.svg";
 import paytmQr from "../../images/paytmQR.jpg";
 const DonatePage = () => {
   return (
@@ -55,7 +55,7 @@ Desi World Radio is a listener-supported, volunteer-powered, nonprofit radio sta
       </a>
       <a target="self" href="https://apps.apple.com/in/app/desi-world-radio/id1237767157">
         <div className="paypalBtn">
-          <img src={paytmLogo} alt="paytm logo" />
+          <img src={app} alt="paytm logo" />
         </div>
       </a>
       <div>
