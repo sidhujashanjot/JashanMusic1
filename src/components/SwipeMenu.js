@@ -159,6 +159,7 @@ const SwipeMenu = () => {
             </ListItemIcon>
             <ListItemText primary="Desi World Radio" />
           </ListItem>
+            </ListItem>
           <ListItem button component={Link} to="/contributors">
             <ListItemIcon>
               <People />
