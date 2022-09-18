@@ -135,9 +135,27 @@ const SwipeMenu = () => {
             </ListItemIcon>
             <ListItemText primary="Pollywood Wale" />
           </ListItem>
-          <ListItem button component={Link} to="/donate">
+            </ListItem>
+          <ListItem
+            button
+            component={MaterialLink}
+            target="blank"
+            href="https://desiworldradio.com/"
+          >
             <ListItemIcon>
-              <FreeBreakfast />
+              <svg
+                width="24"
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="website"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill=" #FFFFFF"
+              >
+                <path d="M10,20A10,10,0,1,0,0,10,10,10,0,0,0,10,20ZM8.711,4.3l5.7,5.766L8.7,15.711,7.3,14.289l4.289-4.242L7.289,5.7Z" />
+              </svg>
             </ListItemIcon>
             <ListItemText primary="Desi World Radio" />
           </ListItem>
