@@ -83,6 +83,26 @@ const DonatePage = () => {
         </Grid>
         <Divider className={classes.divider} />
         <Typography variant="h5">Desi World Radio</Typography>
+
+        <Grid container className={classes.miniContainer}>
+          <Grid container alignItems="center">
+            <Avatar>R</Avatar>
+            <Typography variant="h6">Razvan</Typography>
+          </Grid>
+          <Grid container alignItems="center">
+            <Avatar>S</Avatar>
+            <Typography variant="h6">Shantanu</Typography>
+          </Grid>
+          <Grid container alignItems="center">
+            <Avatar>P</Avatar>
+            <Typography variant="h6">Piyush</Typography>
+          </Grid>
+          <Grid container alignItems="center">
+            <Avatar>Z</Avatar>
+            <Typography variant="h6">Zaid</Typography>
+          </Grid>
+        </Grid>
+      </Grid>
     </>
   );
 };
