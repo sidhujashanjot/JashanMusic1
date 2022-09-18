@@ -7,7 +7,7 @@ import SwipeMenu from "./SwipeMenu";
 import CurrentSection from "./CurrentSection";
 import SnackbarMessage from "./SnackbarMessage";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import { pink } from "@material-ui/core/colors";
+import { teal } from "@material-ui/core/colors";
 
 import { useCheckDarkmode } from "./sections/SettingsPage";
 import { GlobalContext } from "./GlobalState";
@@ -16,9 +16,9 @@ const body = document.querySelector("body");
 
 const defaultTheme = {
   palette: {
-    primary: pink,
+     primary: teal,
     secondary: {
-      main: "#fafafa"
+      main: '#f44336'
     }
   },
   typography: {
@@ -29,9 +29,9 @@ const defaultTheme = {
 const darkTheme = {
   palette: {
     type: "dark",
-    primary: pink,
+    primary: teal,
     secondary: {
-      main: "#fafafa"
+      main: '#f44336'
     }
   },
   typography: {
