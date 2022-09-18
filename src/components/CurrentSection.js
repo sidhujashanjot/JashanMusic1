@@ -57,7 +57,7 @@ const ContributorsPage = lazy(() => import('./sections/ContributorsPage'));
 // custom styling the tab menus
 const CustomTab = withStyles({
   root: {
-    background: '#e91e63',
+    background: '#009688',
     position: 'fixed',
     bottom: '0',
     padding: 0,
@@ -74,7 +74,7 @@ const CustomTab = withStyles({
 
 const CustomTabs = withStyles({
   root: {
-    color: '#FFB2C1',
+    color: '#43c2b6',
     fontSize: '.75rem',
     margin: 0,
 
