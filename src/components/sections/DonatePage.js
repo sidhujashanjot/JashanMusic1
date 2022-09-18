@@ -82,27 +82,10 @@ const DonatePage = () => {
           <Typography>Helped in writing code</Typography>
         </Grid>
         <Divider className={classes.divider} />
-        <Typography variant="h5">Other Contributors</Typography>
-
-        <Grid container className={classes.miniContainer}>
-          <Grid container alignItems="center">
-            <Avatar>R</Avatar>
-            <Typography variant="h6">Razvan</Typography>
-          </Grid>
-          <Grid container alignItems="center">
-            <Avatar>S</Avatar>
-            <Typography variant="h6">Shantanu</Typography>
-          </Grid>
-          <Grid container alignItems="center">
-            <Avatar>P</Avatar>
-            <Typography variant="h6">Piyush</Typography>
-          </Grid>
-          <Grid container alignItems="center">
-            <Avatar>Z</Avatar>
-            <Typography variant="h6">Zaid</Typography>
-          </Grid>
-        </Grid>
-      </Grid>
+        <Typography variant="h5">Desi World Radio</Typography>
+<Typography variant="h6">Desi World Radio is one of the finest Desi Radio Station in America, its non-profit radio station only setup by desi’s for our desi community across the world.
+Desi World Radio truly believe in the idea of bringing the Indian Desi community together and giving a platform for desi’s to showcase their talent and culture through Air.
+Desi World Radio is a listener-supported, volunteer-powered, nonprofit radio station only dedicated to providing excellent programs to our desi community around the world.</Typography>
     </>
   );
 };
