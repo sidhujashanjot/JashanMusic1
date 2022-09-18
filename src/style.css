@@ -19,8 +19,8 @@
   text-align: center;
   color: #fff;
   position: absolute;
-  background: #636e72;
-  background: #ec407a;
+  background: #009688;
+  background: #009688;
   display: block;
   border-radius: 50%;
   top: 16px;
@@ -49,16 +49,16 @@
 
 .pinkLists > a,
 .pinkLists svg {
-  color: #e91e63;
+  color: #FFFFFF;
 }
 .pinkLists > a {
   margin: 5px;
-  background: #e91d6312;
+  background: #009688;
   border-radius: 5px;
   width: auto;
 }
 .pinkLists > a:hover {
-  background: #e91d6423;
+  background: #009688;
 }
 
 .cardSlider {
@@ -105,7 +105,7 @@ svg.songHeart.left {
 .playerMinimized {
   transform: translateY(calc(100% - 106px));
   z-index: 0;
-  background: #e91e63;
+  background: #009688;
 }
 
 .playerPlaylist {
@@ -123,7 +123,7 @@ svg.songHeart.left {
 /* style for the playlist of related videos */
 
 .RelatedVideoContainer {
-  background: #e91d63;
+  background: #009688;
   overflow: auto;
   height: calc(100% - 200px);
   height: 100%;
@@ -143,7 +143,7 @@ div.RelatedVideoContainer * {
   padding: 7px 15px;
   position: sticky;
   top: 0;
-  background: #e91d63;
+  background: #009688;
   z-index: 1;
   box-shadow: #06060640 0px 2px 3px;
 }
