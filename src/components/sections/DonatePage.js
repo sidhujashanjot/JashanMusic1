@@ -83,9 +83,6 @@ const DonatePage = () => {
         </Grid>
         <Divider className={classes.divider} />
         <Typography variant="h5">Desi World Radio</Typography>
-<Typography variant="h6">Desi World Radio is one of the finest Desi Radio Station in America, its non-profit radio station only setup by desi’s for our desi community across the world.
-Desi World Radio truly believe in the idea of bringing the Indian Desi community together and giving a platform for desi’s to showcase their talent and culture through Air.
-Desi World Radio is a listener-supported, volunteer-powered, nonprofit radio station only dedicated to providing excellent programs to our desi community around the world.</Typography>
     </>
   );
 };
