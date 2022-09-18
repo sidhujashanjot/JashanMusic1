@@ -48,7 +48,7 @@ const DonatePage = () => {
       <Grid container justify="center">
         <Grid
           component={Link}
-          href="https://www.instagram.com/sidhujashanjot/"
+          href="https://github.com/shivamjoker"
           target="blank"
           container
           direction="column"
@@ -58,28 +58,48 @@ const DonatePage = () => {
         >
           <Avatar
             className={classes.avatar}
-            src="https://avatars.githubusercontent.com/u/69394942?v=300"
+            src="https://avatars2.githubusercontent.com/u/23727670?s=300"
           />
-          <Typography variant="h5">Jashan</Typography>
-          <Typography>Creator of Jashan Music</Typography>
+          <Typography variant="h5">Shivam</Typography>
+          <Typography>Creator of Ylight Music</Typography>
         </Grid>
 
-        
+        <Grid
+          container
+          direction="column"
+          alignItems="center"
+          className={classes.avatatContainer}
+          component={Link}
+          href="https://github.com/bushblade"
+          target="blank"
+          color="inherit"
+        >
+          <Avatar
+            className={classes.avatar}
+            src="https://avatars2.githubusercontent.com/u/21976188?s=300"
+          />
+          <Typography variant="h5">Will Adams</Typography>
+          <Typography>Helped in writing code</Typography>
+        </Grid>
         <Divider className={classes.divider} />
-        <Typography variant="h5">Languages used</Typography>
+        <Typography variant="h5">Other Contributors</Typography>
 
         <Grid container className={classes.miniContainer}>
           <Grid container alignItems="center">
-            <Avatar>N</Avatar>
-            <Typography variant="h6">Nodejs</Typography>
+            <Avatar>R</Avatar>
+            <Typography variant="h6">Razvan</Typography>
+          </Grid>
+          <Grid container alignItems="center">
+            <Avatar>S</Avatar>
+            <Typography variant="h6">Shantanu</Typography>
           </Grid>
           <Grid container alignItems="center">
             <Avatar>P</Avatar>
-            <Typography variant="h6">Php</Typography>
+            <Typography variant="h6">Piyush</Typography>
           </Grid>
           <Grid container alignItems="center">
-            <Avatar>P</Avatar>
-            <Typography variant="h6">Python</Typography>
+            <Avatar>Z</Avatar>
+            <Typography variant="h6">Zaid</Typography>
           </Grid>
         </Grid>
       </Grid>
